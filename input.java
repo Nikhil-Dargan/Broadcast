@@ -28,7 +28,7 @@ public class input {
         static connect[] arr_of_obj = new connect[1000];
         public static boolean sync_flag=true;
         static private String ip_add="";
-        static private int mask,port;
+        static private int mask,port; 
         
         
     public static void main(String[] args) {
