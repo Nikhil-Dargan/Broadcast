@@ -11,7 +11,7 @@ public class connect extends Thread {
     public connect(String serverName, int port) throws UnknownHostException, SocketException, IOException
     { 
         this.serverName = serverName;
-        this.port = port;
+        this.port = port; 
     }
     
     public synchronized void textarea_append()
